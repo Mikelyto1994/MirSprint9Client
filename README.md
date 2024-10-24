@@ -17,6 +17,16 @@ Este es el frontend de un proyecto de pagos utilizando Stripe, desarrollado con 
 
 ## Resumen
 
+Para ejecutar este proyecto, sigue los siguientes pasos:
+
+1. Clona el repositorio en tu máquina local.
+2. Navega al directorio del proyecto.
+3. Instala las dependencias ejecutando:
+   ```bash
+   npm install
+   npm start
+   ```
+
 ### El desafío
 
 Los usuarios deben ser capaces de:
