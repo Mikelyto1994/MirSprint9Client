@@ -1,0 +1,33 @@
+$primary-color: #4CAF50;
+$secondary-color: #FFC107;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.shopping-cart-items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.item-name, .item-price, .item-quantity {
+  display: inline-block;
+  margin: 5px;
+}
